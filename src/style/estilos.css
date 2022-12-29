@@ -1,8 +1,13 @@
 @charset "UTF-8";
+@font-face {
+    font-family: friz-quadrata;
+    src: url("../fonts/friz_quadrata.otf");
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 body {
     width: 100%;
