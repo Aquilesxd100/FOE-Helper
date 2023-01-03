@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/FOE-Helper/static/css/main.61706b2b.css",
+    "main.js": "/FOE-Helper/static/js/main.168fb13b.js",
+    "static/media/fundo.jpg": "/FOE-Helper/static/media/fundo.bf663d62e8ec9dbef6ad.jpg",
+    "static/media/logo.png": "/FOE-Helper/static/media/logo.ad96b5e7d5a046491ef3.png",
+    "static/media/friz_quadrata.otf": "/FOE-Helper/static/media/friz_quadrata.d3cbef8de09bd28ccbbf.otf",
+    "static/media/lucro.jpg": "/FOE-Helper/static/media/lucro.85555a920d474c979dfe.jpg",
+    "index.html": "/FOE-Helper/index.html",
+    "main.61706b2b.css.map": "/FOE-Helper/static/css/main.61706b2b.css.map",
+    "main.168fb13b.js.map": "/FOE-Helper/static/js/main.168fb13b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61706b2b.css",
+    "static/js/main.168fb13b.js"
+  ]
+}
