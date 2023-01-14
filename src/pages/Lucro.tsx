@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { Painel, Botoes, Botao, TituloPainel, PainelRodape, Formulario } from "../style";
 function Lucro () {
@@ -19,16 +19,20 @@ function Lucro () {
         const lucro : number = Math.round((lucroBase + lucroArco) - investimento);
         if (pfsTotais - pfsInvestidos <= invasor) {
             resultado.current.innerText = `Não é possível ultrapassar o invasor!`;
+            resultado.current.style="color: #FF2B2B";
             return;
         }
         if (lucro > 0) {
             resultado.current.innerText = `Investindo ${investimento}, você terá um lucro de ${lucro} pontos forge!`;
+            resultado.current.style="color: #00FF00";
         }
         else if (lucro === 0) {
             resultado.current.innerText = `Investindo ${investimento}, você não terá nenhum lucro além das plantas`;
+            resultado.current.style="color: #FFFFFF";
         }
         else {
             resultado.current.innerText = `Investindo ${investimento}, você terá um prejuízo de ${Math.abs(lucro)} pontos forge!`;
+            resultado.current.style="color: #FF2B2B";
         }
     });
 
